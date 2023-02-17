@@ -127,3 +127,32 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+
+
+/* #region-------------------tablet 768 solution */
+ @media screen and (max-width:767px) {
+    .site-header{
+        width: 300px;
+        margin:auto;
+    }
+    
+ }
+
+ /* .container {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+} */
+/* #endregion */
+
+
+
+/* #region-------------------mobile 480 solution */
+@media screen and (max-width:479px) {
+    
+}
+/* #endregion */
+
+
+
