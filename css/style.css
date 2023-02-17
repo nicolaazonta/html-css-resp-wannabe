@@ -132,24 +132,25 @@ img {
 
 /* #region-------------------tablet 768 solution */
  @media screen and (max-width:767px) {
-    .site-header{
-        width: 300px;
-        margin:auto;
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        /* padding: 0 20px; */
     }
-    
- }
-
- /* .container {
-    width: 1140px;
-    margin: 0 auto;
-    padding: 0 20px;
-} */
-/* #endregion */
-
-
+ }    
 
 /* #region-------------------mobile 480 solution */
 @media screen and (max-width:479px) {
+    .row{
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center
+    }
+    .col, .card, .row, .lessons{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
     
 }
 /* #endregion */
