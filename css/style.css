@@ -131,29 +131,40 @@ img {
 
 
 /* #region-------------------tablet 768 solution */
- @media screen and (max-width:767px) {
+ @media screen and (max-width:768px) {
     .container {
         width: 100%;
-        margin: 0 auto;
-        /* padding: 0 20px; */
     }
  }    
+/* #endregion */
+
 
 /* #region-------------------mobile 480 solution */
-@media screen and (max-width:479px) {
+@media screen and (max-width:480px) {
     .row{
         flex-wrap: wrap;
-        flex-direction: column;
-        text-align: center
     }
-    .col, .card, .row, .lessons{
-        width: 100%;
-        margin: 0 auto;
+    .steps .col,
+    .lessons .col,
+    .why-us .col-left,
+    .why-us .col-right{
+    width: 100%;
+    }
+    .card{
+        padding: 1rem 0;
     }
     
     
 }
 /* #endregion */
 
+/* #region-------------------bonus-> from 769px to 1160px */
+@media screen and (min-width: 769px) and (max-width: 1160px){
+    .container{
+        width: 80%;
+    }   
+    
+}
+/* #endregion */
 
 
